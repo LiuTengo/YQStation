@@ -1,0 +1,2 @@
+login_token —— 登录时存储的用户token，可解析出用户id（学号/工号）
+student_info —— student信息

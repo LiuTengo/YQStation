@@ -1,0 +1,115 @@
+<mxfile host="65bd71144e">
+    <diagram id="7jekB5egb4QeH6STb06z" name="Page-1">
+        <mxGraphModel dx="996" dy="492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="560" as="sourcePoint"/>
+                        <mxPoint x="805" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="199" y="441" as="sourcePoint"/>
+                        <mxPoint x="804" y="441" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="199" y="332" as="sourcePoint"/>
+                        <mxPoint x="804" y="332" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="数据层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="206" y="568" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="业务逻辑层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="448" width="71" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="HTTP层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="341" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="讲座" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="495" width="200" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="讲座名称" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="10" vertex="1">
+                    <mxGeometry x="4" y="26" width="66" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="讲座时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="10" vertex="1">
+                    <mxGeometry x="4" y="52" width="66" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="讲座介绍" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="10" vertex="1">
+                    <mxGeometry x="67" y="26" width="66" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="参与名单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="10" vertex="1">
+                    <mxGeometry x="67" y="52" width="66" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="10" vertex="1">
+                    <mxGeometry x="143" y="39" width="38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="讲座参与人" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="878" y="644" width="204" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="学号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+                    <mxGeometry x="16" y="26" width="42" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="姓名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+                    <mxGeometry x="16" y="52" width="42" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="状态（已预约、&lt;br&gt;已签到、已签退...）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+                    <mxGeometry x="67" y="34" width="124" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="16" vertex="1">
+                    <mxGeometry x="129" y="75" width="38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="37" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="具体业务操作" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="413" y="455" width="200" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="添加/删除/活动 参与人；&lt;div&gt;计算指定讲座/活动状态；&lt;/div&gt;&lt;div&gt;.......&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="37" vertex="1">
+                    <mxGeometry x="24" y="26" width="153" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="IRepository（接口）" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="428" y="579" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="读取/写入数据接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="40" vertex="1">
+                    <mxGeometry x="27" y="29" width="117" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="学生前端操作API" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="307" y="341" width="200" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="学生查找活动/讲座；&lt;br&gt;学生预约/签到/签退；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="45" vertex="1">
+                    <mxGeometry x="33.5" y="30" width="133" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="教师前端操作API" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="536" y="341" width="200" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="添加活动/讲座等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="47" vertex="1">
+                    <mxGeometry x="48.5" y="38" width="105" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="51" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="ExcelRepository" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="206" y="709" width="200" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="52" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="SQLRepository" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="413" y="709" width="200" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="56" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="学校数据库" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="709" width="200" height="56" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
